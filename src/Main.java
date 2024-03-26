@@ -8,6 +8,16 @@ public class Main {
         System.out.println("Год издания = " + tomSawyer.getBookAge());
 
 
+        Author markTwen2 = new Author("Марк", "Твен");
+        if (markTwen2.equals(markTwen)) {
+            System.out.println("Один и тот же автор");
+        } else {
+            System.out.println("Рызные авторы");
+
+            System.out.println("Хэш автора - " + markTwen.hashCode());
+        }
+
+
 
     }
 }
